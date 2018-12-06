@@ -6,10 +6,26 @@ import org.junit.Test;
 
 public class UnitTesting
 {
+    
+    public boolean allRecordsHave3Elements(){
 
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    }
+    public boolean noNullMovieNames(){
+
+    }
+    public boolean noNullMovieGenres(){
+
+    }
+    public boolean noNullPrices(){
+
+    }
+    public boolean noNullRecords(){
+
+    }
+    public boolean noMoreThanThreeGenres(){
+
+    }
+    public boolean allPricesHaveOnlyTwoDecimalsPlaces(){
+
     }
 }
