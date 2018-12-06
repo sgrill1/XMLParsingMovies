@@ -33,28 +33,4 @@ public class MovieFactory {
             System.out.println(movieName.getElementsByTagName("movie_name").item(0).getTextContent());
         }
     }
-
-    public boolean allRecordsHave3Elements(){
-
-    }
-    public boolean noNullMovieNames(){
-
-    }
-    public boolean noNullMovieGenres(){
-
-    }
-    public boolean noNullPrices(){
-
-    }
-    public boolean noNullRecords(){
-
-    }
-    public boolean noMoreThanThreeGenres(){
-
-    }
-    public boolean allPricesHaveOnlyTwoDecimalsPlaces(){
-
-    }
-
-
 }
